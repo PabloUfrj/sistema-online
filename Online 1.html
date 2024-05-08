@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <ul>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="turmas.html">Turmas</a></li>
+        <li><a href="alunos.html">Alunos</a></li>
+        <li><a href="professores.html">Professores</a></li>
+    </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cursos</title>
+</head>
+<body>
+    <button onclick="location.href='formulario_curso.html'">Novo curso</button>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Valor</th>
+                <th>Alterar</th>
+                <th>Excluir</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Linhas de exemplo -->
+            <tr>
+                <td>Curso 1</td>
+                <td>R$ 100,00</td>
+                <td><button>Alterar</button></td>
+                <td><button>Excluir</button></td>
+            </tr>
+            <tr>
+                <td>Curso 2</td>
+                <td>R$ 150,00</td>
+                <td><button>Alterar</button></td>
+                <td><button>Excluir</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Turmas</title>
+    <style>
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="location.href='formulario_turma.html'">Nova turma</button>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome do Curso</th>
+                <th>Data de Início</th>
+                <th>Data de Término</th>
+                <th>Alterar</th>
+                <th>Excluir</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Linhas de exemplo -->
+            <tr>
+                <td>Curso 1</td>
+                <td>01/05/2024</td>
+                <td>30/06/2024</td>
+                <td><button>Alterar</button></td>
+                <td><button>Excluir</button></td>
+            </tr>
+            <tr>
+                <td>Curso 2</td>
+                <td>15/05/2024</td>
+                <td>15/07/2024</td>
+                <td><button>Alterar</button></td>
+                <td><button>Excluir</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
